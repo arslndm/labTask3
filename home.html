@@ -16,62 +16,56 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/home.css" />
   </head>
   <body>
+    <!-- Header -->
     <div class="container-fluid bg-dark">
-      <div>
-        <a href="./home.html">Blitz Clothing</a>
-      </div>
-      <div class="dropdown">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
       <div class="input-group">
-        <input
-          type="text"
-          class="form-control"
-          aria-label="Text input with segmented dropdown button"
-        />
-        <div class="input-group-append">
-          <button type="button" class="btn btn-outline-secondary">
-            Action
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <span class="sr-only"></span>
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div role="separator" class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
+        <!-- logo -->
+        <div class="logo py-2 px-2">
+          <img
+            src="./assets/logo.JPG"
+            alt="Company Logo"
+            width="130px"
+            height="70px"
+          />
+        </div>
+        <!-- search bar -->
+        <div class="searchBar py-4">
+          <input
+            type="text"
+            class="form-control rounded-0"
+            placeholder="Search for anything"
+          />
+        </div>
+        <!-- dropdown -->
+        <div class="dropdown py-4">
+          <div class="input-group-append bg-white">
+            <button
+              class="btn btn-outline-secondary dropdown-toggle rounded-0"
+              type="button"
+              data-toggle="dropdown"
+            >
+              All Categories
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+
+            <!-- Searcg button -->
+            <div>
+              <button class="btn btn-primary rounded-0" type="button">
+                Search
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <div><span id="nav-search-submit-text" class="nav-search-submit-text nav-sprite nav-progressive-attribute" aria-label="Go">
-        <input id="nav-search-submit-button" type="submit" class="nav-input nav-progressive-attribute" value="Go" tabindex="0">
-      </span><input id="nav-search-submit-button" type="submit" class="nav-input nav-progressive-attribute" value="Go" tabindex="0"></div></span></div>
-      <div></div>
     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
